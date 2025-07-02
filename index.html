@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SHREE VIDYA JYOTI SECONDARY SCHOOL</title>
+    <marquee> SHREE VIDYA JYOTI SECONDARY SCHOOL- Sundarbazar-5-khahare,lamjung</marquee>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f4f4f4;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background: linear-gradient(to right, #003366, #0066cc);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            font-size: 2.2rem;
+            font-weight: bold;
+        }
+
+        nav {
+            background: #002244;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero {
+            background: url(no.jpg) no-repeat center center/cover;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 6px #0a0a0a;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #ffd700;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #ffc107;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: #003366;
+            margin-bottom: 20px;
+        }
+
+        .facility,
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .facility div,
+        .gallery img {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(230, 40, 40, 0.1);
+            width: 250px;
+        }
+
+        .gallery img {
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        form {
+            max-width: 500px;
+            margin: auto;
+            text-align: left;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #002244;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        SHREE VIDYA JYOTI SECONDARY SCHOOL
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1>Welcome to VJSS</h1>
+        <p>Empowering Students Since 2015</p>
+        <button class="btn" onclick="document.getElementById('contact').scrollIntoView()">Enroll Now</button>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title" style="font-size: 100px;">Our School</h2>
+        <p style="max-width: 900px; margin: auto; font-size: 25px; line-height: 1.7;">
+            <strong>
+                <p style="font-size: 25px;">Shree Vidya Jyoti Secondary School
+            </strong> is a hub of academic excellence located in
+            Sundarbazar-5-khahare lamjung - Nepal. With
+            over two decades of educational legacy,
+            the school offers a nurturing environment where students are encouraged to grow intellectually and morally.
+            Our experienced teachers,
+            innovative teaching methods, and modern facilities ensure holistic development for each learner. We aim to
+            build responsible citizens
+            with strong values and creative thinking.
+        </p>
+    </section>
+
+    <section id="facilities">
+        <h2 class="section-title" style="font-size: 100px;"> Our Facilities</h2>
+        <div class="facility">
+            <strong>
+                <p style="font-size: 50px;"> In Vidya Jyoti Secondary School
+            </strong>
+            <p style="font-size: 20px;" There are many facilities in our school . There is the good facilities of
+                Digital Class rooms.And there are many facilities in our school Library, Computers Lab , Sports Ground,
+                ECA Activities etc.</p>
+            <div style="width: 400px; height: 400px;"><strong> Digital Classrooms</strong><br>
+
+                Digital classroom
+                offers modern facilities including interactive smart boards, high-speed internet, and multimedia
+                projectors.
+
+
+
+            </div>
+            <img src="digitalclass.jpg" style="width: 500px; height: 400px;">
+            <div style="width: 400px; height: auto;"><strong> liabrary </strong><br>Extensive collection of academic and
+                non-academic books.</div></strong>
+            <br>
+            <img src="lia.jpg.jpg" style="width: 500px; height: 400px;">
+
+            <div style="width: 400px; height: 400px;"> <strong> Science Lab</strong><br>A school science lab is a place
+                where students explore scientific concepts through experiments and practical activities. It is equipped
+                with tools, chemicals, and safety equipment that help students understand biology, physics, and
+                chemistry. The lab encourages curiosity, critical thinking, and hands-on learning, making science more
+                interesting and effective in developing real-world understanding.
+                .</div>
+            <img src="sciencelab.jpg" style="width: 500px; height: 400px;">
+
+            <div style="width:400px; height:400px;"> <strong>Computer Lab</strong><br>A school computer lab is a room
+                equipped with computers and internet access where students learn digital
+                skills. It helps them practice programming, typing, research, and using educational software. The lab
+                supports subjects like ICT and coding, and promotes technological literacy. It also prepares students
+                for the modern digital world through hands-on computer-based learning.</div>
+
+            <img src="xyz.jpg" style="width: 500px; height: 400px;">
+
+
+            <div style="width: 400px; height: 400px;"><strong> Sports Ground</strong><br>School sports and grounds are
+                essential for students’ physical and mental development. They provide space for games like football,
+                cricket, volleyball, and running. Regular sports activities promote fitness, teamwork, discipline, and
+                leadership skills. Well-maintained playgrounds encourage active lifestyles and help students balance
+                studies with physical well-being, making school life more enjoyable and healthy.
+            </div>
+            <img src="ground.jpg" style="width: 400px; height: 400px;">
+            <div><strong> Other Activities</strong><br>Music, dance, arts, drama, quiz competion, and clubs.</div>
+            <img src="" alt="">
+
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2 class="section-title">Photo Gallery</h2>
+        <div class="gallery">
+            <img src="clab.jpg" alt="classroom">
+            <img src="see.jpg" alt="students">
+            <img src="sciencelab.jpg" alt="lab">
+            <img src="no.jpg" alt="library">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" placeholder="example@gmail.com" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" rows="5" placeholder="Write your message here..."></textarea>
+
+            <button class="btn" type="submit">Send Message</button>
+        </form>
+        <p style="margin-top: 20px;">Sundarbazar-5-khahare lamjung, Nepal | +977-909-908| ✉️ vjss2015@example.com</p>
+    </section>
+
+    <footer>
+        &copy; 2015 SHREE VIDYA JYOTI SECONDARY SCHOOL. All rights reserved.
+    </footer>
+
+    <script>
+        // Optional: form confirmation
+        document.querySelector("form").addEventListener("submit", function (e) {
+            e.preventDefault();
+            alert("Thank you for contacting us!");
+        });
+    </script>
+</body>
+
+</html>
